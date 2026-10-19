@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff8fa">
+  <meta name="description" content="Le menu des 1 an d'Elyane : apéritif et mignardises, repas et boissons — 28 novembre 2026.">
+  <title>Le Menu d'Elyane · 1 an</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&display=swap" rel="stylesheet">
+  <style>
+    :root{--cream:#fffdfd;--paper:#fff8fa;--blush:#f9e9ef;--pink:#d783a1;--deep:#a55874;--wine:#71384e;--text:#603d4d;--muted:#9e8390;--stroke:#f0dce4;--serif:'Italiana','Times New Roman',serif;--sans:'DM Sans',Arial,sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--text);font-family:var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}a{color:inherit;text-decoration:none}button{font:inherit}::selection{background:#eab4c8;color:var(--wine)}
+    .progress{position:fixed;z-index:100;top:0;left:0;height:2px;width:100%;background:rgba(215,131,161,.12);pointer-events:none}.progress__bar{height:100%;width:0;background:var(--pink);transition:width .12s linear}
+    .topbar{position:fixed;z-index:90;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:17px clamp(21px,5vw,76px);background:rgba(255,253,253,.74);backdrop-filter:blur(17px);-webkit-backdrop-filter:blur(17px);border-bottom:1px solid rgba(240,220,228,.7)}
+    .brand{display:flex;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--wine)}.brand__flower{width:23px;height:23px;color:var(--pink)}
+    .topnav{display:flex;align-items:center;gap:clamp(16px,3vw,38px)}.topnav a{font-size:10px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:#a98796;transition:color .2s}.topnav a:hover,.topnav a.active{color:var(--deep)}
+    .hero{position:relative;min-height:100svh;display:flex;align-items:center;justify-content:center;isolation:isolate;background:radial-gradient(ellipse 53% 45% at 50% 47%, #fff 0%,#fff9fb 59%,#faecf1 100%);padding:120px 24px 74px;text-align:center;overflow:hidden}
+    .hero::before,.hero::after{content:"";position:absolute;width:55vw;min-width:370px;aspect-ratio:1;border:1px solid rgba(217,150,174,.20);border-radius:50%;z-index:-1;animation:breathe 10s ease-in-out infinite alternate}.hero::before{top:-32%;left:-22%}.hero::after{bottom:-42%;right:-18%;animation-delay:-5s}
+    .hero__orb{position:absolute;width:min(68vw,590px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(252,228,237,.7),rgba(252,228,237,0) 68%);z-index:-1;filter:blur(12px);animation:breathe 7s ease-in-out infinite alternate}
+    .eyebrow{margin:0;color:var(--deep);font-size:10px;letter-spacing:.32em;text-transform:uppercase;font-weight:700;line-height:1.8}.hero__flower{display:block;width:49px;height:49px;margin:26px auto 28px;color:var(--pink);animation:float 5s ease-in-out infinite}
+    .hero__title{margin:5px 0 8px;color:var(--wine);font-family:var(--serif);font-weight:400;line-height:.86;font-size:clamp(92px,15vw,205px);letter-spacing:-.055em}.hero__title em{display:block;font-style:normal;font-size:.30em;letter-spacing:.15em;line-height:1.55;color:var(--deep);text-transform:uppercase}
+    .hero__subtitle{margin:29px auto 0;max-width:440px;font-family:var(--serif);font-size:clamp(24px,3vw,35px);line-height:1.25;color:#95667a}.hero__date{margin:24px 0 0;color:var(--muted);font-size:10px;letter-spacing:.26em;text-transform:uppercase}
+    .scroll-hint{position:absolute;bottom:34px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;gap:14px;align-items:center;color:var(--deep);font-size:9px;font-weight:700;letter-spacing:.24em;text-transform:uppercase}.scroll-hint i{position:relative;display:block;height:38px;width:1px;background:#edd0da;overflow:hidden}.scroll-hint i::after{content:"";position:absolute;top:-40%;left:0;width:1px;height:50%;background:var(--deep);animation:drop 2s ease-in-out infinite}
+    .chapter{min-height:100svh;position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.02fr);align-items:center;gap:clamp(34px,6vw,115px);padding:125px max(7vw,24px);overflow:hidden}.chapter--rose{background:var(--paper)}.chapter--white{background:#fff}.chapter__intro{position:relative;max-width:560px}.chapter__number{position:absolute;top:-130px;left:-19px;font-family:var(--serif);font-size:clamp(150px,22vw,280px);line-height:1;color:transparent;-webkit-text-stroke:1px rgba(215,131,161,.20);pointer-events:none;user-select:none}.chapter__kicker{display:flex;align-items:center;gap:13px;color:var(--deep);text-transform:uppercase;font-weight:700;font-size:10px;letter-spacing:.27em}.chapter__kicker::before{content:"";display:block;width:30px;height:1px;background:var(--pink)}.chapter h2{position:relative;margin:24px 0 20px;font:400 clamp(73px,9vw,150px)/.98 var(--serif);letter-spacing:-.05em;color:var(--wine)}.chapter__description{max-width:330px;margin:0;color:#947786;line-height:1.9;font-size:13px}.chapter__detail{margin-top:39px;display:flex;align-items:center;gap:11px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--pink)}.chapter__detail span{width:27px;height:1px;background:currentColor}
+    .menu-sheet{position:relative;border:1px solid var(--stroke);background:rgba(255,255,255,.84);padding:clamp(27px,4vw,58px);box-shadow:0 25px 90px rgba(135,75,101,.055);max-width:615px;width:100%}.menu-sheet:before,.menu-sheet:after{content:"";position:absolute;width:13px;height:13px;border:1px solid var(--pink);opacity:.56}.menu-sheet:before{top:11px;left:11px;border-right:0;border-bottom:0}.menu-sheet:after{right:11px;bottom:11px;border-top:0;border-left:0}.menu-sheet__top{text-align:center;color:var(--deep);font-size:9px;font-weight:700;letter-spacing:.32em;text-transform:uppercase}.menu-sheet__flourish{display:flex;align-items:center;justify-content:center;gap:13px;color:#dfa6ba;margin:19px 0 15px}.menu-sheet__flourish::before,.menu-sheet__flourish::after{content:"";width:38px;height:1px;background:#edd4de}.menu-sheet__flourish span{font-size:17px}
+    .dish{text-align:center;padding:22px 0 24px}.dish+.dish{border-top:1px solid #f2e5ea}.dish__name{margin:0;font-family:var(--serif);font-size:clamp(28px,3vw,39px);line-height:1.1;letter-spacing:.003em;color:var(--wine)}.dish__note{margin:9px 0 0;color:#ae94a0;font-size:10px;line-height:1.7;letter-spacing:.06em}.menu-sheet__foot{margin-top:11px;text-align:center;color:#c49aab;font-size:9px;letter-spacing:.19em;text-transform:uppercase}
+    .interlude{height:43vh;min-height:275px;max-height:460px;background:linear-gradient(180deg,#fff8fa,#f9e5ed 52%,#fff8fa);display:grid;place-items:center;position:relative;overflow:hidden}.interlude--reverse{background:linear-gradient(180deg,#fff,#faedf2 52%,#fff)}.interlude__halo{position:absolute;width:190px;aspect-ratio:1;border:1px solid rgba(215,131,161,.32);border-radius:50%;box-shadow:0 0 0 31px rgba(215,131,161,.06),0 0 0 72px rgba(215,131,161,.035);transform:translateY(var(--float-y,0px)) scale(var(--halo-scale,1));transition:transform .13s linear}.interlude__flower{position:absolute;color:#d99db4;width:77px;transform:translateY(var(--reverse-y,0px)) rotate(var(--rotation,0deg));transition:transform .13s linear}.interlude__label{position:absolute;bottom:25px;text-transform:uppercase;letter-spacing:.28em;font-size:9px;font-weight:700;color:#b9869a}
+    .chapter--drink .chapter__intro{order:1}.chapter--drink .menu-sheet{order:2}
+    .footer{background:var(--wine);color:#fbedf2;padding:88px 25px 36px;text-align:center}.footer__flower{display:block;margin:0 auto 17px;width:39px;color:#e7b3c5}.footer__title{font:400 clamp(54px,9vw,100px)/1 var(--serif);margin:0;color:#fff}.footer__message{font:400 24px/1.4 var(--serif);margin:19px 0 33px;color:#f2cbda}.footer__line{width:44px;height:1px;background:#c68ca3;margin:0 auto 30px}.footer__date{font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:#f5d4e0}.footer__credit{font-size:10px;margin:72px 0 0;color:#e3aaba80}.back-top{margin-top:27px;display:inline-flex;align-items:center;gap:8px;border:1px solid #b98098;padding:12px 17px;text-transform:uppercase;letter-spacing:.18em;font-size:9px;color:#fbeaf0;transition:background .2s}.back-top:hover{background:#93556e}
+    .demo-note{display:inline-flex;align-items:center;gap:7px;border:1px solid #ecd3dd;color:#986477;background:#fffafd;padding:10px 14px;border-radius:50px;font-size:10px;line-height:1.4;margin-top:26px;letter-spacing:.025em}.demo-note b{color:var(--deep)}
+    .js .reveal{opacity:0;transform:translateY(45px);transition:opacity 1s cubic-bezier(.2,.65,.2,1),transform 1s cubic-bezier(.2,.65,.2,1)}.js .reveal.is-visible{opacity:1;transform:translateY(0)}.js .reveal.delay-1{transition-delay:.12s}.js .reveal.delay-2{transition-delay:.25s}.js .reveal.delay-3{transition-delay:.4s}.hero .reveal{transform:translateY(20px)}
+    @keyframes float{0%,100%{transform:translateY(0) rotate(-7deg)}50%{transform:translateY(-12px) rotate(7deg)}}@keyframes breathe{from{transform:scale(.95)}to{transform:scale(1.06)}}@keyframes drop{to{top:125%}}
+    @media (max-width:780px){.topbar{padding:14px 20px}.brand{font-size:10px}.topnav{gap:15px}.topnav a{font-size:9px;letter-spacing:.045em}.hero{padding-inline:18px}.hero__title{font-size:clamp(90px,21vw,145px)}.hero__subtitle{margin-top:26px}.chapter{min-height:auto;display:flex;flex-direction:column;align-items:stretch;gap:35px;padding:150px 25px 105px}.chapter__number{top:-102px;left:-3px;font-size:185px}.chapter h2{font-size:clamp(74px,16vw,112px);margin-top:18px}.chapter__description{font-size:12px}.chapter__detail{margin-top:20px}.menu-sheet{align-self:center;padding:30px 24px}.chapter--drink .chapter__intro,.chapter--drink .menu-sheet{order:unset}.interlude{height:33vh;min-height:250px}.demo-note{font-size:9px}}
+    @media (max-width:380px){.topnav{gap:9px}.topnav a{font-size:8px}.brand{gap:6px}.brand__flower{width:19px}.chapter{padding-left:19px;padding-right:19px}.menu-sheet{padding:25px 18px}}
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}.interlude__halo,.interlude__flower{transform:none}}
+
+    /* Un menu généreux, composé comme une carte de fête */
+    .chapter--apero h2{font-size:clamp(59px,7.4vw,116px);line-height:1.04;letter-spacing:-.045em}
+    .chapter--apero h2 span{display:block}
+    .menu-sheet--detailed{padding:clamp(28px,3.5vw,49px)}
+    .menu-sheet__group{text-align:left;border-top:1px solid #f1e2e8;margin-top:24px;padding-top:21px}
+    .menu-sheet__group:first-of-type{margin-top:13px}
+    .menu-sheet__group-title{margin:0 0 17px;color:#b16f89;text-transform:uppercase;font-size:10px;font-weight:700;letter-spacing:.18em;line-height:1.6}
+    .menu-sheet__items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:18px;row-gap:14px;padding:0;margin:0;list-style:none}
+    .menu-sheet__items li{font-family:var(--serif);font-size:clamp(24px,2.3vw,31px);line-height:1.18;letter-spacing:-.008em;color:var(--wine);overflow-wrap:break-word;display:flex;gap:8px;align-items:baseline}
+    .menu-sheet__items li::before{content:'✦';font-family:var(--sans);color:#dba5b7;font-size:8px;flex:0 0 auto;transform:translateY(-3px)}
+    .menu-sheet__foot--detailed{padding-top:25px;margin-top:22px;border-top:1px solid #f1e2e8}
+    .chapter--food{padding-top:145px;padding-bottom:145px}
+    @media(max-width:780px){.chapter--apero h2{font-size:clamp(56px,12.5vw,90px)}.menu-sheet__items li{font-size:clamp(23px,5vw,30px)}.menu-sheet--detailed{padding:30px 23px}.menu-sheet__group{margin-top:20px;padding-top:18px}.chapter--food{padding-top:145px;padding-bottom:100px}}
+    @media(max-width:380px){.menu-sheet__items{column-gap:10px;row-gap:13px}.menu-sheet__items li{font-size:22px;gap:5px}.menu-sheet--detailed{padding:26px 17px}}
+  </style>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+  <header class="topbar">
+    <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+      <svg class="brand__flower" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M30 30C14 16 24 4 30 12c6-8 16 4 0 18Zm0 0c14-16 26-6 18 0 8 6-4 16-18 0Zm0 0c16 14 6 26 0 18-6 8-16-4 0-18Zm0 0C16 46 4 36 12 30c-8-6 4-16 18 0Z"/><circle cx="30" cy="30" r="2.5" fill="currentColor"/></svg>
+      <span>Elyane <span aria-hidden="true">·</span> 1 an</span>
+    </a>
+    <nav class="topnav" aria-label="Menu principal"><a href="#aperitif">Apéritif</a><a href="#repas">Repas</a><a href="#boissons">Boissons</a></nav>
+  </header>
+  <main>
+    <section class="hero" id="accueil" aria-labelledby="hero-title">
+      <div class="hero__orb" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="eyebrow reveal">Une journée pleine de douceur</p>
+        <svg class="hero__flower reveal delay-1" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width=".85" aria-hidden="true"><path d="M30 30C14 16 24 4 30 12c6-8 16 4 0 18Zm0 0c14-16 26-6 18 0 8 6-4 16-18 0Zm0 0c16 14 6 26 0 18-6 8-16-4 0-18Zm0 0C16 46 4 36 12 30c-8-6 4-16 18 0Z"/><circle cx="30" cy="30" r="2.5" fill="currentColor"/></svg>
+        <h1 class="hero__title reveal delay-2" id="hero-title"><em>Le</em> Menu</h1>
+        <p class="hero__subtitle reveal delay-3">du premier anniversaire d’Elyane</p>
+        <p class="hero__date reveal delay-3">28 novembre 2026 <span aria-hidden="true">&nbsp; ✧ &nbsp;</span> Vercelli</p>
+
+      </div>
+      <a href="#aperitif" class="scroll-hint" aria-label="Faire défiler vers l'apéritif">Découvrir<i aria-hidden="true"></i></a>
+    </section>
+    <section class="chapter chapter--rose chapter--apero chapter--food" id="aperitif" aria-labelledby="aperitif-title">
+      <div class="chapter__intro"><span class="chapter__number" aria-hidden="true">01</span><p class="chapter__kicker reveal">Premier instant</p><h2 class="reveal delay-1" id="aperitif-title"><span>Apéritif &amp;</span><span>mignardises</span></h2><p class="chapter__description reveal delay-2">Une sélection de petites douceurs et de saveurs à partager pour ouvrir les festivités.</p><p class="chapter__detail reveal delay-3"><span></span> À partager ensemble</p></div>
+      <div class="menu-sheet menu-sheet--detailed reveal delay-2"><div class="menu-sheet__top">Le début des gourmandises</div><div class="menu-sheet__flourish"><span>✧</span></div>
+        <div class="menu-sheet__group"><h3 class="menu-sheet__group-title">À picorer</h3><ul class="menu-sheet__items"><li>Nems</li><li>Pili-pili</li></ul></div><div class="menu-sheet__group"><h3 class="menu-sheet__group-title">Mignardises &amp; fruits</h3><ul class="menu-sheet__items"><li>Beignets soufflés</li><li>Crêpes</li><li>Fruits de saison</li></ul></div><div class="menu-sheet__group"><h3 class="menu-sheet__group-title">Rafraîchissements</h3><ul class="menu-sheet__items"><li>Foléré</li><li>Jus de fruits</li></ul></div>
+        <div class="menu-sheet__foot menu-sheet__foot--detailed">Le plaisir de se retrouver</div>
+      </div>
+    </section>
+    <div class="interlude" aria-hidden="true"><div class="interlude__halo"></div><svg class="interlude__flower" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width=".8"><path d="M30 30C14 16 24 4 30 12c6-8 16 4 0 18Zm0 0c14-16 26-6 18 0 8 6-4 16-18 0Zm0 0c16 14 6 26 0 18-6 8-16-4 0-18Zm0 0C16 46 4 36 12 30c-8-6 4-16 18 0Z"/><circle cx="30" cy="30" r="2.5" fill="currentColor"/></svg><span class="interlude__label">Un moment précieux</span></div>
+    <section class="chapter chapter--white chapter--food" id="repas" aria-labelledby="repas-title">
+      <div class="chapter__intro"><span class="chapter__number" aria-hidden="true">02</span><p class="chapter__kicker reveal">Autour de la table</p><h2 class="reveal delay-1" id="repas-title">Repas</h2><p class="chapter__description reveal delay-2">Des spécialités généreuses, des grillades et leurs accompagnements à savourer ensemble.</p><p class="chapter__detail reveal delay-3"><span></span> Un moment gourmand</p></div>
+      <div class="menu-sheet menu-sheet--detailed reveal delay-2"><div class="menu-sheet__top">Les saveurs de la fête</div><div class="menu-sheet__flourish"><span>✧</span></div>
+        <div class="menu-sheet__group"><h3 class="menu-sheet__group-title">Nos spécialités</h3><ul class="menu-sheet__items"><li>Ndolé</li><li>Eru</li><li>Fried rice</li></ul></div><div class="menu-sheet__group"><h3 class="menu-sheet__group-title">Grillades &amp; viandes</h3><ul class="menu-sheet__items"><li>Poisson braisé</li><li>Poulet braisé</li><li>Rôti de chèvre</li><li>Brochettes de porc</li><li>Émincé de bœuf</li></ul></div><div class="menu-sheet__group"><h3 class="menu-sheet__group-title">Accompagnements</h3><ul class="menu-sheet__items"><li>Plantain frit / vapeur</li><li>Bâtons de manioc</li><li>Pommes frites</li><li>Igname</li></ul></div>
+        <div class="menu-sheet__foot menu-sheet__foot--detailed">Des saveurs à partager</div>
+      </div>
+    </section>
+    <div class="interlude interlude--reverse" aria-hidden="true"><div class="interlude__halo"></div><svg class="interlude__flower" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width=".8"><path d="M30 30C14 16 24 4 30 12c6-8 16 4 0 18Zm0 0c14-16 26-6 18 0 8 6-4 16-18 0Zm0 0c16 14 6 26 0 18-6 8-16-4 0-18Zm0 0C16 46 4 36 12 30c-8-6 4-16 18 0Z"/><circle cx="30" cy="30" r="2.5" fill="currentColor"/></svg><span class="interlude__label">Encore un peu de douceur</span></div>
+    <section class="chapter chapter--rose chapter--drink chapter--food" id="boissons" aria-labelledby="boissons-title">
+      <div class="chapter__intro"><span class="chapter__number" aria-hidden="true">03</span><p class="chapter__kicker reveal">Pour accompagner</p><h2 class="reveal delay-1" id="boissons-title">Boissons</h2><p class="chapter__description reveal delay-2">De belles boissons pour accompagner les plats et lever nos verres à cette journée unique.</p><p class="chapter__detail reveal delay-3"><span></span> À votre santé</p></div>
+      <div class="menu-sheet menu-sheet--detailed reveal delay-2"><div class="menu-sheet__top">Pour trinquer ensemble</div><div class="menu-sheet__flourish"><span>✧</span></div>
+        <div class="menu-sheet__group"><h3 class="menu-sheet__group-title">Vins &amp; bulles</h3><ul class="menu-sheet__items"><li>Moscato</li><li>Spumante</li><li>Vin blanc</li><li>Vin rouge</li></ul></div><div class="menu-sheet__group"><h3 class="menu-sheet__group-title">Spiritueux &amp; cocktails</h3><ul class="menu-sheet__items"><li>Baileys</li><li>Jack Daniel’s &amp; Cola</li></ul></div><div class="menu-sheet__group"><h3 class="menu-sheet__group-title">Sans alcool</h3><ul class="menu-sheet__items"><li>Jus de fruits</li></ul></div>
+        <div class="menu-sheet__foot menu-sheet__foot--detailed">À tous les jolis moments</div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><svg class="footer__flower" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width=".9" aria-hidden="true"><path d="M30 30C14 16 24 4 30 12c6-8 16 4 0 18Zm0 0c14-16 26-6 18 0 8 6-4 16-18 0Zm0 0c16 14 6 26 0 18-6 8-16-4 0-18Zm0 0C16 46 4 36 12 30c-8-6 4-16 18 0Z"/><circle cx="30" cy="30" r="2.5" fill="currentColor"/></svg><h2 class="footer__title">Merci</h2><p class="footer__message">de partager cette belle journée avec nous.</p><div class="footer__line"></div><p class="footer__date">Elyane <span aria-hidden="true">✧</span> 28.11.2026</p><a href="#accueil" class="back-top">↑ &nbsp; Retour au début</a><p class="footer__credit">Fait avec amour pour les 1 an d’Elyane</p></footer>
+  <script>
+    document.documentElement.classList.add('js');
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}});
+    }, {threshold: .12, rootMargin: '0px 0px -30px 0px'});
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+    const progressBar = document.getElementById('progressBar');
+    const interludes = [...document.querySelectorAll('.interlude')];
+    const sections = [...document.querySelectorAll('.chapter')];
+    const navLinks = [...document.querySelectorAll('.topnav a')];
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let queued = false;
+    function updateScroll(){
+      const total = document.documentElement.scrollHeight-innerHeight;
+      progressBar.style.width = (total>0 ? scrollY/total*100 : 0)+'%';
+      const point = innerHeight*.46;
+      let current='';
+      sections.forEach(section=>{const r=section.getBoundingClientRect();if(r.top<point && r.bottom>point)current=section.id});
+      navLinks.forEach(link => {const active=link.getAttribute('href')==='#'+current;link.classList.toggle('active',active);if(active)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current')});
+      if(!reducedMotion.matches){
+        interludes.forEach((scene,i)=>{
+          const r=scene.getBoundingClientRect();
+          if(r.bottom<0||r.top>innerHeight)return;
+          const normalized=Math.max(-1,Math.min(1,(r.top+r.height/2-innerHeight/2)/(innerHeight/2+r.height/2)));
+          scene.style.setProperty('--float-y',(-normalized*43)+'px');
+          scene.style.setProperty('--reverse-y',(normalized*24)+'px');
+          scene.style.setProperty('--halo-scale',(1+(1-Math.abs(normalized))*.21));
+          scene.style.setProperty('--rotation',(normalized*65*(i%2?-1:1))+'deg');
+        });
+      }
+      queued=false;
+    }
+    addEventListener('scroll',()=>{if(!queued){requestAnimationFrame(updateScroll);queued=true}},{passive:true});
+    addEventListener('resize',updateScroll,{passive:true});
+    updateScroll();
+  </script>
+</body>
+</html>
